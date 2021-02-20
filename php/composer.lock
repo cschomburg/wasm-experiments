@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dc8d5624eb7654ba595d666302b1938a",
+    "packages": [
+        {
+            "name": "wasm/wasm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wasmerio/wasmer-php.git",
+                "reference": "d48d1b7476a3a5f02ff09b04d0367657b43c6ca8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wasmerio/wasmer-php/zipball/d48d1b7476a3a5f02ff09b04d0367657b43c6ca8",
+                "reference": "d48d1b7476a3a5f02ff09b04d0367657b43c6ca8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-wasm": "*"
+            },
+            "replace": {
+                "php-wasm/php-wasm": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "@dev",
+                "phpdocumentor/flyfinder": "@dev",
+                "phpdocumentor/phpdocumentor": "@dev",
+                "phpunit/phpunit": "@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wasm\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wasmer Engineering Team",
+                    "email": "engineering@wasmer.io"
+                }
+            ],
+            "description": "A complete and mature WebAssembly runtime for PHP based on Wasmer",
+            "time": "2021-02-19T09:14:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wasm/wasm": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

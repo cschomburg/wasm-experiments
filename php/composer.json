@@ -1,0 +1,13 @@
+{
+    "name": "cschomburg/wasm-experiments",
+    "type": "project",
+    "require": {
+        "wasm/wasm": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Constantin Schomburg",
+            "email": "me@cschomburg.com"
+        }
+    ]
+}
