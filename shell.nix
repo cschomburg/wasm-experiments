@@ -14,5 +14,7 @@ pkgs.mkShell {
     #wasm-pack
 
     rustup
+
+    wabt
   ];
 }
